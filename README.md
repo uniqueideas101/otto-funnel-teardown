@@ -52,7 +52,7 @@ The behavioral analysis examines five areas:
 - Funnel progression from clicks to carts and orders.
 - Session journey patterns and interaction depth.
 - Article-level attention and same-article progression.
-- Article switching across recorded shopping journeys.
+- Article identity across recorded shopping milestones and prior click exposure.
 - Temporal patterns and differences between cart-reaching and no-cart sessions.
 
 ### Key Findings
@@ -63,17 +63,25 @@ The behavioral analysis examines five areas:
 - 11.94% recorded a complete click-to-cart-to-order journey.
 - 40.81% of click-to-cart sessions subsequently recorded an order.
 
-#### 2. Recorded shopping journeys were not strictly linear
+#### 2. Recorded shopping journeys frequently involved multiple articles
 
-Among sessions with a chronological click-to-cart-to-order journey, 81.34% involved at least one change in article ID across the first recorded click, cart, and order milestones.
+Among sessions with a chronological click-to-cart-to-order journey, 81.34% had different article IDs across at least one of the first recorded click, cart, and order milestones.
 
-This suggests that many recorded journeys involved multiple articles rather than a single article throughout.
+This is a descriptive comparison of article IDs across recorded milestones. It does not establish deliberate product switching or shopper intent.
 
-#### 3. High article attention did not guarantee progression
+#### 3. Most first-cart articles had prior recorded click exposure
 
-Some articles received substantial click attention but recorded no complete same-article click-to-cart-to-order journeys.
+Among sessions with at least one cart event, 83.15% had a first-cart article that had been clicked earlier in the same session.
 
-Article popularity and progression therefore need to be examined separately.
+Across all distinct session-article cart pairs, 79.96% had a recorded click before the first cart event for that article.
+
+Prior click exposure varied with the number of distinct carted articles:
+
+- With one carted article, 86.33% of sessions had prior clicks for every carted article.
+- With 6 or more distinct carted articles, this figure was 21.92%.
+- However, 99.77% of sessions in the 6+ article group had at least one carted article with prior click exposure.
+
+These measures describe recorded interactions, not deliberate product consideration.
 
 #### 4. Interaction volume alone did not distinguish cart-reaching sessions
 
@@ -92,9 +100,17 @@ Recorded activity varied by hour and day.
 
 19:00 UTC had the highest hourly volume across sessions, clicks, carts, and orders. Temporal patterns provide useful context for understanding activity distribution, but do not establish why those patterns occurred.
 
+#### 6. High article attention did not guarantee progression
+
+Some articles received substantial click attention but recorded no complete same-article click-to-cart-to-order journeys.
+
+Article popularity and same-article progression therefore need to be examined separately.
+
 ### Interpretation
 
-The recorded journeys were often multi-article and did not follow a simple linear path. Neither article attention nor interaction volume alone explains whether a session progressed to a cart or order.
+Recorded shopping journeys were not simply linear. Article IDs frequently differed across the first click, cart, and order milestones, although most first-cart articles had prior recorded click exposure in the same session.
+
+Neither article attention nor interaction volume alone explains whether a session progressed to a cart or order. These findings describe recorded behavioral patterns and should not be interpreted as evidence of shopper intent or causality.
 
 ---
 
